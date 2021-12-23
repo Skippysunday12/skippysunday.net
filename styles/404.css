@@ -1,0 +1,27 @@
+body {
+  background-color: #ebc363;
+  display: grid;
+  place-items: center;
+}
+
+#portrait {
+  position: absolute;
+  top: 60%;
+  margin: -250px;
+}
+
+.text {
+  text-align: center;
+  margin: auto;
+  position: relative;
+  right: 60px;
+  bottom: 50px;
+}
+
+#top {
+  font-size: 75px;
+}
+
+#bottom {
+  font-size: 25px;
+}
