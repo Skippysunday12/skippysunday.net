@@ -31,8 +31,31 @@ class Header extends HTMLElement {
     #projectslink {
       left: 60%;
     }
+
+    .imglink{
+      position: absolute;
+      top: 2.5;
+    }
+
+    #ghlink {
+      left: 10px;
+    }
+
+    #discordlink {
+      left: 80px;
+    }
+
+    #gmaillink {
+      left: 150px;
+    }
     </style>
     <div class="nav">
+      <a class="imglink" id="ghlink" href="https://github.com/Skippysunday12" target="_blank">
+        <img src="images/gh.png" alt="Github Link" width="45" height="45"/></a>
+      <a class="imglink" id="discordlink" href="https://discord.gg/hTQjfpChma" target="_blank">
+        <img src="images/discord.png" alt="Discord Link" width="45" height="45"/></a>
+      <a class="imglink" id="gmaillink" href="mailto:skippysunday@gmail.com" target="_blank">
+        <img src="images/gmail.png" alt="Gmail Link" width="45" height="45"/></a>
       <a class="navlink" id="homelink" href="#">Home</a>
       <a class="navlink" id="aboutlink" href="">About</a>
       <a class="navlink" id="projectslink" href="#">Projects</a>
