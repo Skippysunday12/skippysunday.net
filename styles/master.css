@@ -1,0 +1,17 @@
+:root {
+  --black: #090B0A;
+  --purple: #520A85;
+  --blue: #09395D;
+  --green: #558B6E;
+  --gray: #525252;
+  --white: #E0E0E0;
+}
+
+@font-face {
+  font-family: jbmono;
+  src: url('/fonts/jetbrains-mono-thin.ttf');
+}
+
+p {
+  font-family: jbmono;
+}
