@@ -21,15 +21,15 @@ class Header extends HTMLElement {
     }
 
     #homelink {
-      left: 37%;
+      left: 38%;
     }
 
     #aboutlink {
-      left: 47%;
+      left: 48%;
     }
 
     #projectslink {
-      left: 57%;
+      left: 58%;
     }
 
     .imglink{
@@ -56,9 +56,9 @@ class Header extends HTMLElement {
         <img src="images/discord.png" alt="Discord Link" width="45" height="45"/></a>
       <a class="imglink" id="gmaillink" href="mailto:skippysunday@gmail.com" target="_blank">
         <img src="images/gmail.png" alt="Gmail Link" width="45" height="45"/></a>
-      <a class="navlink" id="homelink" href="index.html">Home</a>
-      <a class="navlink" id="aboutlink" href="">About</a>
-      <a class="navlink" id="projectslink" href="#">Projects</a>
+      <a class="navlink" id="homelink" href="index.php">Home</a>
+      <a class="navlink" id="aboutlink" href="about.php">About</a>
+      <a class="navlink" id="projectslink" href="projects.php">Projects</a>
     </div>
     `;
   }
