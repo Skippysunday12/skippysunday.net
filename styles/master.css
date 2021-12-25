@@ -1,7 +1,7 @@
 :root {
-  --black: #090B0A;
+  --black: #121614;
   --purple: #520A85;
-  --blue: #09395D;
+  --blue: #0D4F82;
   --green: #558B6E;
   --gray: #525252;
   --white: #E0E0E0;
@@ -12,6 +12,12 @@
   src: url('/fonts/jetbrains-mono-thin.ttf');
 }
 
-p {
+body {
   font-family: jbmono;
+  background-color: var(--gray);
+}
+
+p {
+  font-size: 25px;
+  color: var(--green);
 }
