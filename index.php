@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="images/favicon.png">
+    <link rel="icon" href="images/icon.png">
     <link rel="stylesheet" href="styles/master.css">
     <title>Skippysunday</title>
   </head>
   <body>
-    <p>Hello. My name is Skippysunday</p>
+    <img src="images/icon.png" alt="Profile Picture" width="600" height="500">
   </body>
 </html>

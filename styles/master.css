@@ -1,5 +1,5 @@
 :root {
-  --black: #121614;
+  --black: #0a0e0c;
   --purple: #520A85;
   --blue: #0D4F82;
   --green: #558B6E;
@@ -14,10 +14,5 @@
 
 body {
   font-family: jbmono;
-  background-color: var(--gray);
-}
-
-p {
-  font-size: 25px;
-  color: var(--green);
+  background-color: var(--black);
 }
