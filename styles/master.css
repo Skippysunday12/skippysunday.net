@@ -14,7 +14,6 @@
 
 body {
   font-family: jbmono;
-  background-image: radial-gradient(var(--black) 90%, var(--gray));
-  min-height: 100vh;
+  background-color: var(--black);
   overflow: hidden;
 }

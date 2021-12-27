@@ -1,0 +1,37 @@
+#icon {
+  position: relative;
+  left: calc(50% - 300px);
+}
+
+#uhoh {
+  color: var(--green);
+  text-align: center;
+  padding: 0px;
+  border: 0px;
+}
+
+.home {
+  position: absolute;
+  top: 80%;
+  left: 43%;
+}
+
+.home:hover > #homelink, #homeimage {
+  filter: brightness(50%);
+}
+
+#homelink {
+  color: var(--white);
+  text-decoration: none;
+  transition: filter 0.125s;
+  font-size: 25px;
+  text-align: center;
+}
+
+#homeimage {
+  position: relative;
+  top: 5px;
+  right: 5px;
+  filter: brightness(100%);
+  transition: filter 0.125s;
+}

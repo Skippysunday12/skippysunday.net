@@ -1,5 +1,4 @@
 #profile {
-  transform: scaleX(-1);
   position: absolute;
   top: calc(50% - 250px);
   left: 100px;
