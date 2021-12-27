@@ -1,0 +1,20 @@
+:root {
+  --black: #121614;
+  --purple: #520A85;
+  --blue: #0D4F82;
+  --green: #558B6E;
+  --gray: #525252;
+  --white: #E0E0E0;
+}
+
+@font-face {
+  font-family: jbmono;
+  src: url('/fonts/jetbrains-mono-thin.ttf');
+}
+
+body {
+  font-family: jbmono;
+  background-image: radial-gradient(var(--black) 90%, var(--gray));
+  min-height: 100vh;
+  overflow: hidden;
+}

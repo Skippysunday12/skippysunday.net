@@ -1,28 +1,73 @@
-body {
-  background-color: #ebc363;
-  overflow: hidden;
-}
-
-#portrait {
+#profile {
+  transform: scaleX(-1);
   position: absolute;
-  top: 200px;
+  top: calc(50% - 250px);
   left: 100px;
 }
 
-#welcome, #welcome2, #welcome3 {
-  margin: 0px;
-  border: 0px;
+#welcome, #desc {
+  color: var(--green);
+  position: absolute;
   text-align: center;
+}
+
+#welcome {
+  font-size: 50px;
+  top: 25%;
+  left: 45%;
+}
+
+#desc {
+  top: 46%;
+  left: calc(35% + 50px);
+}
+
+.about {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+}
+
+.about:hover > #aboutlink, #aboutimage {
+  filter: brightness(50%);
+}
+
+#aboutlink {
+  color: var(--white);
+  text-decoration: none;
+  transition: filter 0.125s;
+  font-size: 25px;
+}
+
+#aboutimage {
   position: relative;
-  left: 550px;
+  top: 10px;
+  right: 5px;
+  filter: brightness(100%);
+  transition: filter 0.125s;
 }
 
-#welcome, #welcome2 {
-  font-size: 100px;
-  bottom: 500px;
+.projects {
+  position: absolute;
+  top: 55%;
+  left: 60%;
 }
 
-#welcome3 {
-  bottom: 450px;
-  font-size: 35px;
+.projects:hover > #projectslink, #projectsimage {
+  filter: brightness(50%);
+}
+
+#projectslink {
+  color: var(--white);
+  text-decoration: none;
+  transition: filter 0.125s;
+  font-size: 25px;
+}
+
+#projectsimage {
+  position: relative;
+  top: 15px;
+  right: 5px;
+  filter: brightness(100%);
+  transition: filter 0.125s;
 }
