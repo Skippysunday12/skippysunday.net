@@ -21,8 +21,13 @@
     to program small "experiments" in the Raspbian edition of Minecraft. From here, the
     spiral of curiosity began.</p>
     <h3 id="start" onclick="window.scrollTo({top: window.innerHeight, behavior: 'smooth'});">V Click (or scroll) to Start V</h3>
+    <script type="text/javascript" src="scripts/startbounce.js"></script>
     <div class="beginnings">
       <h1 id="header">Beginnings</h1>
+      <p id="text"></p>
+    </div>
+    <div class="next">
+
     </div>
   </body>
 </html>

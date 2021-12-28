@@ -38,7 +38,7 @@ body {
   position: absolute;
   top: 80%;
   left: calc(var(--left-align) - 170px);
-  transition: filter 0.125s;
+  transition: filter 0.125s, top 1s;
   cursor: default;
 }
 
@@ -47,16 +47,31 @@ body {
 }
 
 .beginnings {
-  height: 722px;
+  height: 100vh;
   min-width: 100vw;
   position: absolute;
   top: 100vh;
   left: 0px;
-  background-color: var(--green);
+  background-color: var(--blue);
 }
 
 div.beginnings > #header {
-  color: var(--black);
+  color: var(--white);
   position: absolute;
   left: 25px;
+}
+
+div.beginnings > #text {
+  color: var(--white);
+  text-align: justify;
+  max-width: 500px;
+}
+
+.next {
+  height: 100vh;
+  min-width: 100vw;
+  position: absolute;
+  left: 0px;
+  top: 200vh;
+  background-color: var(--green);
 }
