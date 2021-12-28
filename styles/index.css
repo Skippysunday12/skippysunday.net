@@ -1,3 +1,7 @@
+body {
+  overflow: hidden;
+}
+
 #profile {
   position: absolute;
   top: calc(50% - 250px);

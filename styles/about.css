@@ -1,0 +1,56 @@
+:root {
+  --left-align: 55%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+#aboutme {
+  color: var(--green);
+  max-width: 155px;
+  position: absolute;
+  top: 20%;
+  left: calc(var(--left-align) - 77.5px);
+}
+
+.abouttext {
+  text-align: justify;
+  color: var(--white);
+  font-size: 20px;
+}
+
+#about1 {
+  position: absolute;
+  max-width: 500px;
+  top: 30%;
+  left: calc(var(--left-align) - 250px);
+}
+
+#start {
+  color: var(--white);
+  max-width: 210px;
+  position: absolute;
+  top: 80%;
+  left: calc(var(--left-align) - 105px);
+  transition: filter 0.125s;
+  cursor: default;
+}
+
+#start:hover {
+  filter: brightness(50%);
+}
+
+.beginnings {
+  height: 722px;
+  min-width: 100vw;
+  position: absolute;
+  top: 100vh;
+  left: 0px;
+  background-color: var(--green);
+}
