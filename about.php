@@ -20,9 +20,9 @@
     <br/><br/>I was first inspired by a summer camp when I was 9. We used Raspberry Pi's
     to program small "experiments" in the Raspbian edition of Minecraft. From here, the
     spiral of curiosity began.</p>
-    <h3 id="start" onclick="window.scrollTo({top: window.innerHeight, behavior: 'smooth'}); console.log(window.innerHeight);">V Click to Start V</h3>
+    <h3 id="start" onclick="window.scrollTo({top: window.innerHeight, behavior: 'smooth'});">V Click (or scroll) to Start V</h3>
     <div class="beginnings">
-      <p>hello</p>
+      <h1 id="header">Beginnings</h1>
     </div>
   </body>
 </html>

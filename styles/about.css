@@ -34,10 +34,10 @@ body {
 
 #start {
   color: var(--white);
-  max-width: 210px;
+  max-width: 340px;
   position: absolute;
   top: 80%;
-  left: calc(var(--left-align) - 105px);
+  left: calc(var(--left-align) - 170px);
   transition: filter 0.125s;
   cursor: default;
 }
@@ -53,4 +53,10 @@ body {
   top: 100vh;
   left: 0px;
   background-color: var(--green);
+}
+
+div.beginnings > #header {
+  color: var(--black);
+  position: absolute;
+  left: 25px;
 }
