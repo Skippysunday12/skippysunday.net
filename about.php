@@ -20,14 +20,24 @@
     <br/><br/>I was first inspired by a summer camp when I was 9. We used Raspberry Pi's
     to program small "experiments" in the Raspbian edition of Minecraft. From here, the
     spiral of curiosity began.</p>
-    <h3 id="start" onclick="window.scrollTo({top: window.innerHeight, behavior: 'smooth'});">V Click (or scroll) to Start V</h3>
+    <h3 class="bounce" id="start" onclick="window.scrollTo({top: window.innerHeight, behavior: 'smooth'});"> Click (or scroll) to Start </h3>
     <script type="text/javascript" src="scripts/startbounce.js"></script>
     <div class="beginnings">
-      <h1 id="header">Beginnings</h1>
-      <p id="text"></p>
+      <h1 id="beginningheader">Beginnings</h1>
+      <p id="beginningtext">It all started with Raspberry Pi's. This small, cheap, and fast
+       computer provided the perfect start to a beginner like me. Its numerous gides,
+       tutorials, and help centers allowed me to quickly and easily start learning.
+       The language mainly used with Raspberry Pi's is python, so it was a bit of
+       a rough start, as its syntax can be a little confusing compared to other
+       languages like Java and Javascript. So much did I learn that I started
+       a notebook to keep track of it all. A full pdf version can be found
+       <a href="https://drive.google.com/file/d/1avOyX9oEax2pSzd1X-gRS4OoxkpwS618/view?usp=sharing" target="_blank" style="color: var(--white);">here</a>.
+       Keep in mind these are the thoughts, handwriting, and spelling mistakes of a fourth grader.</p>
+      <a href="https://www.raspberrypi.org" target="_blank" id="rpi"><img src="images/rpi_logo.png" alt="Raspberry pi logo" width="247" height="310"/></a>
+      <h3 class="bounce" id="begcontinue" onclick="window.scrollTo({top: window.innerHeight * 2, behavior: 'smooth'});">Click or scroll to continue</h3>
     </div>
-    <div class="next">
-
+    <div class="arduino">
+      <h1 id="arduinoheader">The arduino</h1>
     </div>
   </body>
 </html>

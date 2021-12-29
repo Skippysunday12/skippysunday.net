@@ -1,16 +1,18 @@
 var up = true;
-var start = document.getElementById('start');
 
 function bounce() {
-  if(up) {
-    start.style.top = '78%';
-    up = false;
+  var start = document.getElementsByClassName('bounce');
+  for(let i = 0; i < start.length; i++) {
+    if(up) {
+      start[i].style.top = '78%';
+    }
+
+    else {
+      start[i].style.top = '80%';
+    }
   }
 
-  else {
-    start.style.top = '80%';
-    up = true;
-  }
+  up = !up;
 }
 
 setInterval(bounce, 1000);
