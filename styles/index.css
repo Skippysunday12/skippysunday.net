@@ -28,7 +28,7 @@ body {
 .about {
   position: absolute;
   top: 55%;
-  left: 50%;
+  left: 45%;
 }
 
 .about:hover > #aboutlink, #aboutimage {
@@ -53,7 +53,7 @@ body {
 .projects {
   position: absolute;
   top: 55%;
-  left: 60%;
+  left: 55%;
 }
 
 .projects:hover > #projectslink, #projectsimage {
@@ -68,6 +68,31 @@ body {
 }
 
 #projectsimage {
+  position: relative;
+  top: 15px;
+  right: 5px;
+  filter: brightness(100%);
+  transition: filter 0.125s;
+}
+
+.contact {
+  position: absolute;
+  top: 55%;
+  left: 68%;
+}
+
+.contact:hover > #contactlink, #contactimage {
+  filter: brightness(50%);
+}
+
+#contactlink {
+  color: var(--white);
+  text-decoration: none;
+  transition: filter 0.125s;
+  font-size: 25px;
+}
+
+#contactimage {
   position: relative;
   top: 15px;
   right: 5px;
