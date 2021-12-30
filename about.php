@@ -7,6 +7,7 @@
     <link rel="icon" href="images/icon.png">
     <link rel="stylesheet" href="styles/master.css">
     <link rel="stylesheet" href="styles/about.css">
+    <script type="text/javascript" src="scripts/footer.js"> </script>
     <title>About me</title>
   </head>
   <body>
@@ -48,5 +49,20 @@
       <img src="images/vscode.png" alt="Visual Studio Code Icon" width="350" height="350" id="vscode">
       <h3 class="bounce" id="compcontinue" onclick="window.scrollTo({top: window.innerHeight * 3, behavior: 'smooth'});">Click or scroll to continue</h3>
     </div>
+    <div class="java">
+      <h1 id="javaheader">Java</h1>
+      <p id="javatext">Java has been my favorite language so far. It has also been
+      the language with which I started programming fully fleshed out projects, rather
+      than half baked, incomplete ideas. These first projects were built as modifications
+      (or mods) of the game Minecraft, through a software called Spigot. Spigot was
+      a perfect way to start full projects, because it provided a pre-existing project
+      (the game) to add to, rather than having to do everything myself. I started
+      highschool computer science classes my freshmen year, but the introductory
+      course I felt was slow for me, so I went off on my own to learn, hence these
+      spigot projects.</p>
+      <a href="https://spigotmc.org" target="_blank"><img src="images/spigot.png" alt="Unofficial Java Logo" width="358" height="254" id="spigot"/></a>
+      <a href="projects.html" class="bounce" id="projpage"><strong>Click to go to projects page</strong></a>
+    </div>
+    <custom-footer date="12/30/2021">
   </body>
 </html>
