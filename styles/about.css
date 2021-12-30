@@ -73,7 +73,7 @@ body {
 
 #rpi {
   position: absolute;
-  left: 70%;
+  left: calc(75% - 123px);
   top: calc(50% - 155px);
 }
 
@@ -82,7 +82,7 @@ body {
   max-width: 310px;
   position: absolute;
   top: 80%;
-  left: calc(70% - 32px);/*equal to center of rpi logo (70% + 123) - 1/2 width of text*/
+  left: calc(75% - 155px);/*equal to center of rpi logo (70% + 123) - 1/2 width of text*/
   transition: filter 0.125s, top 1s;
   cursor: default;
 }
@@ -91,11 +91,47 @@ body {
   filter: brightness(50%);
 }
 
-.arduino {
+.computer {
   height: 100vh;
   min-width: 100vw;
   position: absolute;
   left: 0px;
   top: 200vh;
   background-color: var(--green);
+}
+
+#computerheader {
+  color: var(--white);
+  position: absolute;
+  left: 50px;
+}
+
+#computertext {
+  color: var(--white);
+  text-align: justify;
+  max-width: 750px;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  font-size: 27px;
+}
+
+#vscode {
+  position: absolute;
+  left: calc(75% - 185px);
+  top: 100px;
+}
+
+#compcontinue {
+  color: var(--white);
+  max-width: 310px;
+  position: absolute;
+  top: 80%;
+  left: calc(75% - 155px);/*equal to center of rpi logo (70% + 123) - 1/2 width of text*/
+  transition: filter 0.125s, top 1s;
+  cursor: default;
+}
+
+#compcontinue:hover {
+  filter: brightness(50%);
 }

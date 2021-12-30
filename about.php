@@ -25,7 +25,7 @@
     <div class="beginnings">
       <h1 id="beginningheader">Beginnings</h1>
       <p id="beginningtext">It all started with Raspberry Pi's. This small, cheap, and fast
-       computer provided the perfect start to a beginner like me. Its numerous gides,
+       computer provided the perfect start to a beginner like me. Its numerous guides,
        tutorials, and help centers allowed me to quickly and easily start learning.
        The language mainly used with Raspberry Pi's is python, so it was a bit of
        a rough start, as its syntax can be a little confusing compared to other
@@ -36,8 +36,17 @@
       <a href="https://www.raspberrypi.org" target="_blank" id="rpi"><img src="images/rpi_logo.png" alt="Raspberry pi logo" width="247" height="310"/></a>
       <h3 class="bounce" id="begcontinue" onclick="window.scrollTo({top: window.innerHeight * 2, behavior: 'smooth'});">Click or scroll to continue</h3>
     </div>
-    <div class="arduino">
-      <h1 id="arduinoheader">The arduino</h1>
+    <div class="computer">
+      <h1 id="computerheader">First computers</h1>
+      <p id="computertext">I got my first real computer when I turned 12. Before
+      that, I had a chromebook for a couple of years, but the limitations of the
+      chromebook OS didn't allow for much beyond online programming classes like
+      Kahn Academy. This first computer, a Lenovo Ideapad, enabled me to install
+      real text editors and IDEs (Integrated Development Environment) such as VS
+      Code, a popular IDE used not only for amatuers, but also professionals.
+      From there, I started experimenting with arduinos, and poked around a bit in HTML.</p>
+      <img src="images/vscode.png" alt="Visual Studio Code Icon" width="350" height="350" id="vscode">
+      <h3 class="bounce" id="compcontinue" onclick="window.scrollTo({top: window.innerHeight * 3, behavior: 'smooth'});">Click or scroll to continue</h3>
     </div>
   </body>
 </html>
