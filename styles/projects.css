@@ -1,0 +1,45 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.header {
+  position: relative;
+}
+
+.header > * {
+  color: var(--white);
+}
+
+#mainheader {
+  position: relative;
+  text-align: center;
+  margin: auto;
+}
+
+#subheader {
+  position: relative;
+  text-align: center;
+  margin: auto;
+  top: 15px;
+}
+
+.cards {
+  min-width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 150px;
+}
+
+project-card {
+  position: relative;
+}
+
+td {
+  padding: 50px;
+}

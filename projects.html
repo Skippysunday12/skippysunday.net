@@ -11,10 +11,23 @@
     <title>Projects</title>
   </head>
   <body>
-    <div class="header">
-      <h1>Projects</h1>
-      <h4>These are some of my projects! Click them for more info!</h4>
+    <div class="header fadein">
+      <h1 id="mainheader">Projects</h1>
+      <h4 id="subheader">These are some of my projects! Click them for more info!</h4>
     </div>
-    <card-card textid="card1" text="hello world my name is name"/>
+    <div class="cards">
+      <table>
+        <tr>
+          <td><project-card textid="card1" title="Test" text="Hello world" project-type="Java" img="images/duke.png" height="250" width="250"/></td>
+          <td><project-card textid="card2" title="Test" text="Hello world" project-type="Java" img="images/duke.png" height="250" width="250"/></td>
+          <td><project-card textid="card3" title="Test" text="Hello world" project-type="Java" img="images/duke.png" height="250" width="250"/></td>
+        </tr>
+        <tr>
+          <td><project-card textid="card4" title="Test" text="Hello world" project-type="Java" img="images/duke.png" height="250" width="250"/></td>
+          <td><project-card textid="card5" title="Test" text="Hello world" project-type="Java" img="images/duke.png" height="250" width="250"/></td>
+          <td><project-card textid="card6" title="Test" text="Hello world" project-type="Java" img="images/duke.png" height="250" width="250"/></td>
+        </tr>
+      </table>
+    </div>
   </body>
 </html>
