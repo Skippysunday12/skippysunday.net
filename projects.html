@@ -7,25 +7,21 @@
     <link rel="icon" href="images/icon.png">
     <link rel="stylesheet" href="styles/master.css">
     <link rel="stylesheet" href="styles/projects.css">
-    <script type="text/javascript" src="scripts/card.js"></script>
+    <link rel="stylesheet" href="styles/animations.css">
+    <script src="scripts/card.js" charset="utf-8"></script>
     <title>Projects</title>
   </head>
-  <body>
-    <div class="header fadein">
+  <body class="fadein">
+    <div class="header">
       <h1 id="mainheader">Projects</h1>
       <h4 id="subheader">These are some of my projects! Click them for more info!</h4>
     </div>
     <div class="cards">
       <table>
         <tr>
-          <td><project-card textid="card1" title="Test" text="Hello world" project-type="Java" img="images/duke.png" height="250" width="250"/></td>
-          <td><project-card textid="card2" title="Test" text="Hello world" project-type="Java" img="images/duke.png" height="250" width="250"/></td>
-          <td><project-card textid="card3" title="Test" text="Hello world" project-type="Java" img="images/duke.png" height="250" width="250"/></td>
-        </tr>
-        <tr>
-          <td><project-card textid="card4" title="Test" text="Hello world" project-type="Java" img="images/duke.png" height="250" width="250"/></td>
-          <td><project-card textid="card5" title="Test" text="Hello world" project-type="Java" img="images/duke.png" height="250" width="250"/></td>
-          <td><project-card textid="card6" title="Test" text="Hello world" project-type="Java" img="images/duke.png" height="250" width="250"/></td>
+          <td><a href="projects/skippysunday.net.html"><project-card tgh="https://github.com/Skippysunday12/skippysunday.net" textid="card1" title="skippysunday.net" project-type="Web" img="images/html.png" height="250" width="250" text="You are looking at this project! This project is my website!"/></a></td>
+          <td><a href="projects/playerstats.html"><project-card gh="https://github.com/Skippysunday12/PlayerStatsRecode" textid="card2" title="PlayerStats" project-type="Spigot" img="images/spigot.png" height="250" width="250" text="My first spigot plugin. Tracks data about players on Minecraft servers."/></a></td>
+          <td><a href="projects/itemfinder.html"><project-card gh="https://github.com/Skippysunday12/ChestFinder" textid="card3" title="ItemFinder" project-type="Spigot" img="images/spigot.png" height="250" width="250" text="My second spigot plugin. Helps players locate items in game."/></a></td>
         </tr>
       </table>
     </div>

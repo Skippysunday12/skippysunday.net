@@ -36,10 +36,10 @@ body {
   top: 150px;
 }
 
-project-card {
-  position: relative;
-}
-
 td {
   padding: 50px;
+}
+
+a {
+  text-decoration: none;
 }
