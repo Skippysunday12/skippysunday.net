@@ -53,7 +53,7 @@ ul {
 }
 
 li {
-  float: left;
+  display: inline-block;
   padding: 25px;
 }
 
