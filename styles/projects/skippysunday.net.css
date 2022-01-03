@@ -1,5 +1,14 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 #header {
-  color: var(--white);
+  color: var(--green);
   position: relative;
   display: block;
   margin-left: auto;
@@ -37,19 +46,27 @@ h2 {
   top: 50px;
 }
 
-.link {
-  position: absolute;
+ul {
+  list-style-type: none;
+  position: relative;
+  top: 25px;
 }
 
-#home {
-  top: 325px;
-  left: 100px;
+li {
+  float: left;
+  padding: 25px;
 }
 
-#projects {
-  left: 150px;
+#apache {
+  right: 147.5px;
+  top: 800px;
 }
 
-#contact {
-  left: 225px;
+#gdomains {
+  right: 122.5px;
+  top: 975px;
+}
+
+#last {
+  padding-bottom: 50px;
 }

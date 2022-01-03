@@ -3,10 +3,7 @@ class HomeNav extends HTMLElement {
     this.innerHTML = `
     <style>
     .about {
-      min-width: 125px;
-      position: absolute;
-      top: 55%;
-      left: 45%;
+      max-width: 200px;
     }
 
     .about:hover > #aboutlink, #aboutimage {
@@ -40,10 +37,7 @@ class ProjectsNav extends HTMLElement {
     this.innerHTML = `
       <style>
       .projects {
-        min-width: 200px;
-        position: absolute;
-        top: 55%;
-        left: 55%;
+        max-width: 200px;
       }
 
       .projects:hover > #projectslink, #projectsimage {
@@ -77,10 +71,7 @@ class ContactNav extends HTMLElement {
     this.innerHTML = `
       <style>
       .contact {
-        min-width: 200px;
-        position: absolute;
-        top: 55%;
-        left: 68%;
+        max-width: 200px;
       }
 
       .contact:hover > #contactlink, #contactimage {
