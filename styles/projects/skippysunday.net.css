@@ -1,0 +1,55 @@
+#header {
+  color: var(--white);
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.logo {
+  position: absolute;
+  margin: 0px;
+}
+
+#htmlogo {
+  right: 15px;
+  top: 75px;
+}
+
+#css3logo {
+  right: 280px;
+  top: 75px;
+}
+
+#jslogo {
+  right: 147.5px;
+  top: 375px;
+}
+
+h2 {
+  max-width: 750px;
+  color: var(--white);
+  font-weight: normal;
+  text-align: justify;
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
+
+.link {
+  position: absolute;
+}
+
+#home {
+  top: 325px;
+  left: 100px;
+}
+
+#projects {
+  left: 150px;
+}
+
+#contact {
+  left: 225px;
+}
