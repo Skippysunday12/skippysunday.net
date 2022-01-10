@@ -1,0 +1,55 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+#header {
+  color: var(--green);
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h2 {
+  max-width: 750px;
+  color: var(--white);
+  font-weight: normal;
+  text-align: justify;
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
+
+#spigot {
+  color: var(--white);
+}
+
+#psbanner {
+  position: absolute;
+  right: 100px;
+  top: 150px;
+}
+
+#gitlogo {
+  position: absolute;
+  right: 100px;
+  top: 750px;
+}
+
+#mavenlogo {
+  background-color: #A22160;
+  border-radius: 500px;
+  position: absolute;
+  right: 100px;
+  top: 1250px;
+}
+
+#last {
+  padding-bottom: 50px;
+}
